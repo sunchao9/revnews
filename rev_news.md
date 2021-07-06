@@ -20,7 +20,30 @@
 - https://www.infoworld.com/article/3528008/microsofts-scalar-speeds-up-git.html
 - https://www.sitepoint.com/git-techniques-to-know-before-you-join-a-team/
 
+## https://git.github.io/rev_news/2020/04/23/edition-62/
+- make git understandable: https://opensource.com/article/20/4/get-started-git
+- make git easier to use: https://opensource.com/article/20/4/git-extras
+- https://www.smashingmagazine.com/make-life-easier-when-using-git/
+
+## https://git.github.io/rev_news/2020/05/28/edition-63/
+- https://thenextweb.com/news/github-codespace-lets-you-code-in-your-browser-without-any-setup
+- How LinkedIn handles merging code in high-velocity repositories by Niket Parikh.
+- https://dev.to/milu_franz/git-explained-the-basics-igc
+- https://opensource.com/article/20/4/git-merge-conflict
+- https://blog.afoolishmanifesto.com/posts/improve-git-diffs-structured-data/
+
+## https://git.github.io/rev_news/2020/06/25/edition-64/
+- Piranha by Uber is an Open Source tool for automated clean up of stale code caused by feature flags that are no longer required. It currently supports Java, Swift, and Objective-C.
+- Git Explained: Proper Team Etiquette by Milu.
+
+## https://git.github.io/rev_news/2020/07/29/edition-65/
+- https://www.alchemists.io/articles/git_rebase/
+
 ## append
+
+### git-merge
+
+https://about.gitlab.com/blog/2020/03/25/git-merge-fifteen-year-git-party/
 
 ### github cli
 
@@ -62,6 +85,7 @@ https://github.com/marketplace，基于 github 实现扩展，共享成果
 - v2 protocol
 - sparse checkout
 - partical clone: https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories/
+    * https://about.gitlab.com/blog/2020/03/13/partial-clone-for-massive-repositories/
     * Partial Clone is a new feature of Git that replaces Git LFS and makes working with very large repositories better by teaching Git how to work without downloading every file. Partial Clone has been years in the making, with code contributions from GitLab, GitHub, Microsoft and Google. Today it is experimentally available in Git and GitLab, and can be enabled by administrators (docs).
     * Partial Clone speeds up fetching and cloning because less data is transferred, and reduces disk usage on your local computer. For example, cloning gitlab-com/www-gitlab-com using Partial Clone (--filter=blob:none) is at least 50% faster, and transfers 70% less data.
     * Large files are necessary for many projects, and Git will soon support this natively, without the need for extra tools. Although Partial Clone is still an experimental feature, we are making improvements with every release and the feature is now ready for testing.
@@ -75,3 +99,6 @@ https://github.com/marketplace，基于 github 实现扩展，共享成果
 
 ### use .gitattributes in server
 - get better diff output
+
+## Top 13 GitHub Alternatives in 2020 [Free and Paid] by Momchil Koychev on DevOps Zone.
+- https://dzone.com/articles/top-13-github-alternatives-in-2020-free-and-paid
